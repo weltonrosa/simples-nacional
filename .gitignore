@@ -2,6 +2,7 @@
 
 *.log
 *.pyc
+*.bak
 .vscode/*
 .venv/*
 /temp/*
