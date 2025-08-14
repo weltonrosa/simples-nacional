@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+import os
+
+def Limpar_Tela():
+    """Limpa a tela do console."""
+    os.system('cls' if os.name == 'nt' else 'clear')
