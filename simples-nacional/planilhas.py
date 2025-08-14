@@ -7,11 +7,7 @@ Esta classe permite abrir, salvar e exibir o conteúdo de uma planilha Excel.
 Autor: Welton C. O. Rosa
 Data: 02/04/2025
 
-<<<<<<< HEAD
 Ultima Atualização: 11/08/2025
-=======
-Ultima Atualização: 05/05/2025
->>>>>>> e77c940cafd5b1663f8aa221179b99075ca41f83
 Atualizado por: Welton C. O. Rosa
 
 Versão: 1.0
@@ -24,7 +20,6 @@ Funções disponíveis: criar_planilha, abrir_planilha, salvar_planilha, exibir_
 ###############################[ Bibliotecas ]##################################|
 
 # -*- coding: utf-8 -*-
-<<<<<<< HEAD
 import logging
 import os
 from openpyxl import load_workbook
@@ -46,17 +41,6 @@ class Planilha:
     def __init__(self, caminho, planilha):
         self.caminho = caminho
         self.planilha = planilha
-=======
-from openpyxl import load_workbook
-from openpyxl import Workbook
-
-#################################[ Classes ]####################################|
-
-class Planilha:
-    def __init__(self, caminho, planilha=None):
-        self.caminho = caminho
-        self.planilha = None
->>>>>>> e77c940cafd5b1663f8aa221179b99075ca41f83
         self.abrir_planilha()        
     
     def abrir_planilha(self):
@@ -140,7 +124,6 @@ def criar_planilha(caminho, nome_planilha):
         # Salva o arquivo no caminho especificado
         workbook.save(caminho)
         print(f"Arquivo Excel criado com a planilha '{nome_planilha}' em: {caminho}")
-<<<<<<< HEAD
         return True
     except Exception as e:
         print(f"Erro ao criar a planilha: {e}")
@@ -151,16 +134,6 @@ def criar_planilha(caminho, nome_planilha):
     # Teste da classe Planilha
     if __name__ == "__main__":
         import console
-=======
-    except Exception as e:
-        print(f"Erro ao criar a planilha: {e}")
-
-
-#################################[ Testes ]####################################|        
-""" # Teste da classe Planilha
-if __name__ == "__main__":
-    import console
->>>>>>> e77c940cafd5b1663f8aa221179b99075ca41f83
 
     tela = console.Console("Teste da Classe Planilha")
     tela.limpar_tela()
@@ -183,11 +156,5 @@ if __name__ == "__main__":
     planilha.inserir_dados(4, 1, "Teste Final")
 
     planilha.salvar_planilha()
-<<<<<<< HEAD
     planilha.exibir_conteudo()
  """
-=======
-    planilha.exibir_conteudo() """
-
-
->>>>>>> e77c940cafd5b1663f8aa221179b99075ca41f83

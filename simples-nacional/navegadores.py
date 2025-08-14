@@ -6,11 +6,7 @@ Módulo para abrir um website no navegador Chrome e autenticar-se nele.
 Autor: Welton C. O. Rosa
 Data: 02/04/2025
 
-<<<<<<< HEAD
 Ultima Atualização: 11/08/2025
-=======
-Ultima Atualização: 08/08/2025
->>>>>>> e77c940cafd5b1663f8aa221179b99075ca41f83
 Atualizado por: Welton C. O. Rosa
 
 Versão: 1.0
@@ -44,24 +40,15 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 import logging
-<<<<<<< HEAD
 import os
-=======
->>>>>>> e77c940cafd5b1663f8aa221179b99075ca41f83
 
 #################################[   Log   ]#####################################|
 
 # Configuração do logger
-<<<<<<< HEAD
 log_file_path = os.path.join(os.getcwd(), 'navegadores.log')    # Caminho absoluto para o arquivo de log
 logging.basicConfig(
     filename=log_file_path,                                     # Nome do arquivo de log
     level=logging.INFO,                                         # Nível mínimo de log
-=======
-logging.basicConfig(
-    filename='navegadores.log',           # Nome do arquivo de log
-    level=logging.INFO,                   # Nível mínimo de log
->>>>>>> e77c940cafd5b1663f8aa221179b99075ca41f83
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 

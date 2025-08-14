@@ -8,11 +8,7 @@ sobre débitos de empresas do Simples Nacional pelo site da Receita Federal.
 Autor: Welton C. O. Rosa
 Data: 05/05/2025
 
-<<<<<<< HEAD
 Ultima Atualização: 12/08/2025
-=======
-Ultima Atualização: 08/08/2025
->>>>>>> e77c940cafd5b1663f8aa221179b99075ca41f83
 Atualizado por: Welton C. O. Rosa
 
 Versão: 1.0
