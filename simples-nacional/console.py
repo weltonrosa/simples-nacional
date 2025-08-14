@@ -6,28 +6,19 @@ Esta classe é útil para criar interfaces de linha de comando mais amigáveis e
 Autor: Welton C. O. Rosa
 Data: 02/04/2025
 
-<<<<<<< HEAD
 Ultima Atualização: 11/08/2025
-=======
-Ultima Atualização: 06/05/2025
->>>>>>> e77c940cafd5b1663f8aa221179b99075ca41f83
 Atualizado por: Welton C. O. Rosa
 
 Versão: 1.0
 Python Version: 3.9.7
 Bibliotecas: os
 Funções disponíveis: limpar_tela, exibir_titulo, exibir_mensagem, exibir_erro, exibir_opcoes
-<<<<<<< HEAD
-=======
-
->>>>>>> e77c940cafd5b1663f8aa221179b99075ca41f83
 '''
 ###############################[ Bibliotecas ]##################################|
 # -*- coding: utf-8 -*-
 
 import os
 import time
-<<<<<<< HEAD
 import logging
 
 #################################[   Log   ]#####################################|
@@ -39,8 +30,6 @@ logging.basicConfig(
     level=logging.INFO,                                     # Nível mínimo de log
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
-=======
->>>>>>> e77c940cafd5b1663f8aa221179b99075ca41f83
 
 #################################[ Classes ]####################################|
 
@@ -92,10 +81,7 @@ class Console:
         """Exibe uma mensagem de erro no console."""
         print(f"Erro: {erro}")
         print("\n")
-<<<<<<< HEAD
         logging.error(f"Erro: {erro}")
-=======
->>>>>>> e77c940cafd5b1663f8aa221179b99075ca41f83
 
 
 #################################[ Testes ]####################################|
